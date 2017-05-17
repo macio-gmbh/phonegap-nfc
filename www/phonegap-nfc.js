@@ -16,8 +16,6 @@ function handleNfcFromIntentFilter() {
     }
 }
 
-document.addEventListener('deviceready', handleNfcFromIntentFilter, false);
-
 var ndef = {
 
     // see android.nfc.NdefRecord for documentation about constants
